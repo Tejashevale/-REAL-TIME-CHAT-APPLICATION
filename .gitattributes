@@ -1,0 +1,5 @@
+# Force Unix-style LF line endings for consistency
+* text=auto eol=lf
+
+# Ignore node_modules from normalization
+node_modules/** -text
